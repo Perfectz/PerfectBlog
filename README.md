@@ -47,6 +47,6 @@ Supported categories are:
 
 ## Publishing
 
-GitHub Pages setup has not been configured yet. Preview the site locally first, then choose whether to publish from the repository root, a `docs/` folder, or a GitHub Actions Pages workflow.
+GitHub Pages is deployed by `.github/workflows/deploy-pages.yml`. The workflow publishes the `project/` directory as the site root whenever changes are pushed to `main`.
 
 The main site entry is `project/index.html`.
