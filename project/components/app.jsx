@@ -3,6 +3,7 @@
 const { useEffect, useMemo, useState } = React;
 
 const MANIFEST_URL = 'posts/index.json';
+let mermaidReady = false;
 
 async function loadPosts() {
   const manifestResponse = await fetch(MANIFEST_URL, { cache: 'no-store' });
@@ -95,6 +96,67 @@ function App() {
     return () => window.removeEventListener('open-post', onOpenPost);
   }, [posts]);
 
+  useEffect(() => {
+    if (!activePost || !window.mermaid) return undefined;
+
+    let cancelled = false;
+    const renderDiagrams = async () => {
+      if (!mermaidReady) {
+        window.mermaid.initialize({
+          startOnLoad: false,
+          securityLevel: 'strict',
+          theme: 'base',
+          themeVariables: {
+            background: '#151326',
+            primaryColor: '#211d39',
+            primaryTextColor: '#fff7f0',
+            primaryBorderColor: '#6de5ff',
+            secondaryColor: '#2a203f',
+            secondaryTextColor: '#eee4ec',
+            secondaryBorderColor: '#ff5d9e',
+            tertiaryColor: '#141225',
+            tertiaryTextColor: '#eee4ec',
+            lineColor: '#c7bbce',
+            textColor: '#fff7f0',
+            mainBkg: '#211d39',
+            nodeBorder: '#6de5ff',
+            clusterBkg: '#17152b',
+            clusterBorder: '#4f4865',
+            edgeLabelBackground: '#151326',
+            actorBkg: '#211d39',
+            actorBorder: '#6de5ff',
+            actorTextColor: '#fff7f0',
+            signalColor: '#c7bbce',
+            signalTextColor: '#fff7f0',
+            noteBkgColor: '#2a203f',
+            noteTextColor: '#fff7f0',
+            noteBorderColor: '#ff5d9e',
+            fontFamily: 'Space Grotesk, system-ui, sans-serif'
+          }
+        });
+        mermaidReady = true;
+      }
+
+      await Promise.resolve();
+      if (cancelled) return;
+
+      const diagrams = document.querySelectorAll('.markdown-body .mermaid:not([data-processed="true"])');
+      if (!diagrams.length) return;
+
+      try {
+        await window.mermaid.run({ nodes: diagrams });
+      } catch (error) {
+        diagrams.forEach(node => {
+          node.closest('.md-diagram')?.classList.add('diagram-error');
+        });
+        console.warn('Unable to render one or more Mermaid diagrams.', error);
+      }
+    };
+
+    renderDiagrams();
+    return () => { cancelled = true; };
+  }, [activePost]);
+
   const setActiveCategory = (category) => {
     setActivePost(null);
     setActiveCategoryState(category);
@@ -134,6 +196,7 @@ function App() {
       setQuery={setQuery}
       activePost={activePost}
       onOpenPost={openPost}
+      onBack={backToIndex}
     >
       {activePost ? (
         <PostReader post={activePost} posts={posts} onBack={backToIndex} />
@@ -144,6 +207,7 @@ function App() {
           activeCategory={activeCategory}
           setActiveCategory={setActiveCategory}
           query={query}
+          setQuery={setQuery}
           onOpenPost={openPost}
         />
       )}

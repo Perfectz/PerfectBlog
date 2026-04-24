@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="614.16pt" height="390.299625pt" viewBox="0 0 614.16 390.299625" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-04-24T12:33:15.268255</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M -0 390.299625 
+L 614.16 390.299625 
+L 614.16 0 
+L -0 0 
+z
+" style="fill: #fafbfc"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 98.3988 149.364585 
+L 568.6812 149.364585 
+L 546.8076 180.300105 
+L 120.2724 180.300105 
+z
+" clip-path="url(#p8f49b741fa)" style="fill: #1b9aaa; opacity: 0.82; stroke: #fafbfc; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 147.6144 197.486505 
+L 519.4656 197.486505 
+L 497.592 228.422025 
+L 169.488 228.422025 
+z
+" clip-path="url(#p8f49b741fa)" style="fill: #c4457a; opacity: 0.82; stroke: #fafbfc; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 202.2984 245.608425 
+L 464.7816 245.608425 
+L 442.908 276.543945 
+L 224.172 276.543945 
+z
+" clip-path="url(#p8f49b741fa)" style="fill: #d59a1a; opacity: 0.82; stroke: #fafbfc; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 251.514 293.730345 
+L 415.566 293.730345 
+L 393.6924 324.665865 
+L 273.3876 324.665865 
+z
+" clip-path="url(#p8f49b741fa)" style="fill: #2f9f68; opacity: 0.82; stroke: #fafbfc; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Arial'; text-anchor: middle; fill: #ffffff" x="333.54" y="169.227279" transform="rotate(-0 333.54 169.227279)">Impressions  |  1.2M</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Arial'; text-anchor: middle; fill: #ffffff" x="333.54" y="217.349199" transform="rotate(-0 333.54 217.349199)">Clicks  |  84K</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Arial'; text-anchor: middle; fill: #ffffff" x="333.54" y="265.471119" transform="rotate(-0 333.54 265.471119)">Trials  |  9.6K</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Arial'; text-anchor: middle; fill: #ffffff" x="333.54" y="313.593039" transform="rotate(-0 333.54 313.593039)">Orders  |  2.4K</text>
+   </g>
+  </g>
+  <g id="text_5">
+   <text style="font-weight: 700; font-size: 20px; font-family: 'Arial'; text-anchor: start; fill: #172033" x="7.2" y="21.515625" transform="rotate(-0 7.2 21.515625)">Launch Conversion Funnel</text>
+  </g>
+  <g id="text_6">
+   <text style="font-size: 10px; font-family: 'Arial'; text-anchor: start; fill: #5f6b7a" x="7.2" y="46.067625" transform="rotate(-0 7.2 46.067625)">Each stage shows the key volume leaders need to protect.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p8f49b741fa">
+   <rect x="60.12" y="39.371625" width="546.84" height="343.728"/>
+  </clipPath>
+ </defs>
+</svg>

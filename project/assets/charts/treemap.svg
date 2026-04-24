@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="707.904pt" height="371.147625pt" viewBox="0 0 707.904 371.147625" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-04-24T12:33:15.193145</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 371.147625 
+L 707.904 371.147625 
+L 707.904 0 
+L 0 0 
+z
+" style="fill: #fafbfc"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 111.36672 308.640681 
+L 390.09888 308.640681 
+Q 399.47328 308.640681 399.47328 303.817401 
+L 399.47328 108.956889 
+Q 399.47328 104.133609 390.09888 104.133609 
+L 111.36672 104.133609 
+Q 101.99232 104.133609 101.99232 108.956889 
+L 101.99232 303.817401 
+Q 101.99232 308.640681 111.36672 308.640681 
+z
+" clip-path="url(#pbdb823e8cb)" style="fill: #1b9aaa; opacity: 0.82; stroke: #fafbfc; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 411.34752 308.640681 
+L 583.83648 308.640681 
+Q 593.21088 308.640681 593.21088 303.817401 
+L 593.21088 192.560409 
+Q 593.21088 187.737129 583.83648 187.737129 
+L 411.34752 187.737129 
+Q 401.97312 187.737129 401.97312 192.560409 
+L 401.97312 303.817401 
+Q 401.97312 308.640681 411.34752 308.640681 
+z
+" clip-path="url(#pbdb823e8cb)" style="fill: #c4457a; opacity: 0.82; stroke: #fafbfc; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 411.34752 186.450921 
+L 521.34048 186.450921 
+Q 530.71488 186.450921 530.71488 181.627641 
+L 530.71488 108.956889 
+Q 530.71488 104.133609 521.34048 104.133609 
+L 411.34752 104.133609 
+Q 401.97312 104.133609 401.97312 108.956889 
+L 401.97312 181.627641 
+Q 401.97312 186.450921 411.34752 186.450921 
+z
+" clip-path="url(#pbdb823e8cb)" style="fill: #d59a1a; opacity: 0.82; stroke: #fafbfc; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 542.58912 186.450921 
+L 646.33248 186.450921 
+Q 655.70688 186.450921 655.70688 181.627641 
+L 655.70688 108.956889 
+Q 655.70688 104.133609 646.33248 104.133609 
+L 542.58912 104.133609 
+Q 533.21472 104.133609 533.21472 108.956889 
+L 533.21472 181.627641 
+Q 533.21472 186.450921 542.58912 186.450921 
+z
+" clip-path="url(#pbdb823e8cb)" style="fill: #2f9f68; opacity: 0.82; stroke: #fafbfc; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 605.08512 308.640681 
+L 646.33248 308.640681 
+Q 655.70688 308.640681 655.70688 303.817401 
+L 655.70688 192.560409 
+Q 655.70688 187.737129 646.33248 187.737129 
+L 605.08512 187.737129 
+Q 595.71072 187.737129 595.71072 192.560409 
+L 595.71072 303.817401 
+Q 595.71072 308.640681 605.08512 308.640681 
+z
+" clip-path="url(#pbdb823e8cb)" style="fill: #4b73d9; opacity: 0.82; stroke: #fafbfc; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Arial'; fill: #ffffff" transform="translate(119.4912 141.735341)">Paid Search</text>
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Arial'; fill: #ffffff" transform="translate(119.4912 155.466997)">$42K</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Arial'; fill: #ffffff" transform="translate(419.472 225.338861)">Paid Social</text>
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Arial'; fill: #ffffff" transform="translate(419.472 239.070517)">$27K</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Arial'; fill: #ffffff" transform="translate(419.472 141.735341)">Email</text>
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Arial'; fill: #ffffff" transform="translate(419.472 155.466997)">$18K</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Arial'; fill: #ffffff" transform="translate(550.7136 141.893779)">Organic</text>
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Arial'; fill: #ffffff" transform="translate(550.7136 155.79606)">$8K</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Arial'; fill: #ffffff" transform="translate(613.2096 225.338861)">Display</text>
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Arial'; fill: #ffffff" transform="translate(613.2096 239.241142)">$5K</text>
+   </g>
+  </g>
+  <g id="text_6">
+   <text style="font-weight: 700; font-size: 20px; font-family: 'Arial'; text-anchor: start; fill: #172033" x="7.2" y="21.515625" transform="rotate(-0 7.2 21.515625)">Budget Allocation Treemap</text>
+  </g>
+  <g id="text_7">
+   <text style="font-size: 10px; font-family: 'Arial'; text-anchor: start; fill: #5f6b7a" x="7.2" y="44.483625" transform="rotate(-0 7.2 44.483625)">Paid channels consume most spend; owned channels contribute leverage at lower cost.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pbdb823e8cb">
+   <rect x="75.744" y="42.395625" width="624.96" height="321.552"/>
+  </clipPath>
+ </defs>
+</svg>

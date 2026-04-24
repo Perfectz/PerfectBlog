@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="469.869094pt" height="389.231437pt" viewBox="0 0 469.869094 389.231437" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-04-24T12:33:15.028350</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 389.231437 
+L 469.869094 389.231437 
+L 469.869094 0 
+L 0 0 
+z
+" style="fill: #fafbfc"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 179.064 72.676237 
+C 148.556693 72.676237 118.900178 82.829932 94.794676 101.528075 
+C 70.689174 120.226218 53.4792 146.425898 45.89234 175.974761 
+C 38.30548 205.523624 40.764901 236.773547 52.880812 264.77177 
+C 64.996723 292.769992 86.093344 315.95488 112.827099 330.651889 
+L 136.672384 287.277486 
+C 119.56278 277.871401 106.060942 263.033073 98.30676 245.11421 
+C 90.552577 227.195348 88.978547 207.195397 93.834138 188.284125 
+C 98.689728 169.372852 109.704112 152.605057 125.131633 140.638245 
+C 140.559154 128.671434 159.539324 122.173069 179.064 122.173069 
+z
+" style="fill: #1b9aaa; stroke: #fafbfc; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 112.827099 330.651889 
+C 129.92376 340.05086 148.826791 345.704066 168.276556 347.234797 
+C 187.72632 348.765528 207.28098 346.13901 225.637477 339.530266 
+C 243.993973 332.921521 260.735305 322.48068 274.745882 308.903487 
+C 288.75646 295.326294 299.718008 278.921179 306.900084 260.781326 
+L 260.879094 242.560326 
+C 256.282565 254.169832 249.267174 264.669105 240.300405 273.358509 
+C 231.333635 282.047913 220.619183 288.730051 208.871025 292.959648 
+C 197.122867 297.189244 184.607885 298.870216 172.160036 297.890548 
+C 159.712187 296.91088 147.614247 293.292828 136.672384 287.277486 
+z
+" style="fill: #c4457a; stroke: #fafbfc; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 306.900084 260.781326 
+C 316.503673 236.525429 319.008234 210.029946 314.119853 184.404155 
+C 309.231471 158.778363 297.149152 135.065477 279.290769 116.048231 
+L 243.209132 149.931146 
+C 254.638497 162.102183 262.371182 177.27843 265.499746 193.678937 
+C 268.62831 210.079443 267.025391 227.036552 260.879094 242.560326 
+z
+" style="fill: #d59a1a; stroke: #fafbfc; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 279.290769 116.048231 
+C 271.395495 107.640619 262.473583 100.259773 252.735466 94.079776 
+C 242.997349 87.899779 232.520194 82.969605 221.551115 79.405535 
+L 206.255754 126.47982 
+C 213.275964 128.760824 219.981343 131.916136 226.213738 135.871334 
+C 232.446133 139.826532 238.156157 144.550274 243.209132 149.931146 
+z
+" style="fill: #2f9f68; stroke: #fafbfc; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 221.551115 79.405535 
+C 214.70092 77.179772 207.686403 75.495736 200.572359 74.368982 
+C 193.458316 73.242228 186.266718 72.676237 179.063997 72.676237 
+L 179.063998 122.173069 
+C 183.673739 122.173069 188.276362 122.535304 192.82935 123.256426 
+C 197.382338 123.977548 201.871629 125.055332 206.255754 126.47982 
+z
+" style="fill: #4b73d9; stroke: #fafbfc; stroke-linejoin: miter"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2"/>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 28px; font-family: 'Arial'; text-anchor: middle; fill: #172033" x="179.064" y="211.925914" transform="rotate(-0 179.064 211.925914)">$428K</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 11px; font-family: 'Arial'; text-anchor: middle; fill: #5f6b7a" x="179.064" y="235.009701" transform="rotate(-0 179.064 235.009701)">Total revenue</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 18px; font-family: 'Arial'; text-anchor: start; fill: #172033" x="7.2" y="20.303437" transform="rotate(-0 7.2 20.303437)">Revenue Mix by Channel</text>
+   </g>
+   <g id="legend_1">
+    <g id="patch_7">
+     <path d="M 360.828 181.625016 
+L 382.828 181.625016 
+L 382.828 173.925016 
+L 360.828 173.925016 
+z
+" style="fill: #1b9aaa; stroke: #fafbfc; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_4">
+     <text style="font-size: 11px; font-family: 'Arial'; text-anchor: start; fill: #172033" x="391.628" y="181.625016" transform="rotate(-0 391.628 181.625016)">Search - 42%</text>
+    </g>
+    <g id="patch_8">
+     <path d="M 360.828 197.184859 
+L 382.828 197.184859 
+L 382.828 189.484859 
+L 360.828 189.484859 
+z
+" style="fill: #c4457a; stroke: #fafbfc; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_5">
+     <text style="font-size: 11px; font-family: 'Arial'; text-anchor: start; fill: #172033" x="391.628" y="197.184859" transform="rotate(-0 391.628 197.184859)">Social - 27%</text>
+    </g>
+    <g id="patch_9">
+     <path d="M 360.828 212.744703 
+L 382.828 212.744703 
+L 382.828 205.044703 
+L 360.828 205.044703 
+z
+" style="fill: #d59a1a; stroke: #fafbfc; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_6">
+     <text style="font-size: 11px; font-family: 'Arial'; text-anchor: start; fill: #172033" x="391.628" y="212.744703" transform="rotate(-0 391.628 212.744703)">Email - 18%</text>
+    </g>
+    <g id="patch_10">
+     <path d="M 360.828 228.445484 
+L 382.828 228.445484 
+L 382.828 220.745484 
+L 360.828 220.745484 
+z
+" style="fill: #2f9f68; stroke: #fafbfc; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 11px; font-family: 'Arial'; text-anchor: start; fill: #172033" x="391.628" y="228.445484" transform="rotate(-0 391.628 228.445484)">Organic - 8%</text>
+    </g>
+    <g id="patch_11">
+     <path d="M 360.828 244.268297 
+L 382.828 244.268297 
+L 382.828 236.568297 
+L 360.828 236.568297 
+z
+" style="fill: #4b73d9; stroke: #fafbfc; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_8">
+     <text style="font-size: 11px; font-family: 'Arial'; text-anchor: start; fill: #172033" x="391.628" y="244.268297" transform="rotate(-0 391.628 244.268297)">Display - 5%</text>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
