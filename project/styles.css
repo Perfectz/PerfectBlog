@@ -1029,12 +1029,20 @@ h4 {
 }
 
 .guide-outline > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   flex: 0 0 auto;
   color: var(--cyan);
   font-family: var(--ff-ui);
   font-size: 11px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
+}
+
+.guide-outline > span .asset-icon {
+  width: 28px;
+  height: 28px;
 }
 
 .guide-outline > div {
@@ -1398,6 +1406,28 @@ h4 {
   line-height: 1.48;
 }
 
+.home-signal-divider {
+  position: absolute;
+  left: clamp(18px, 4vw, 56px);
+  bottom: 8px;
+  z-index: 3;
+  width: min(760px, calc(100% - 36px));
+  height: 56px;
+  object-fit: contain;
+  object-position: left center;
+  opacity: 0.9;
+  pointer-events: none;
+}
+
+.asset-icon {
+  display: inline-block;
+  flex: 0 0 auto;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 10px rgba(109,229,255,0.26));
+}
+
 .topic-nav {
   position: sticky;
   top: 106px;
@@ -1415,12 +1445,17 @@ h4 {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  min-height: 36px;
-  padding: 8px 13px;
+  min-height: 42px;
+  padding: 7px 14px 7px 8px;
   border: 1px solid rgba(255,255,255,0.12);
   border-radius: 999px;
   color: var(--fg-2);
   white-space: nowrap;
+}
+
+.topic-nav .asset-icon {
+  width: 30px;
+  height: 30px;
 }
 
 .topic-nav button.active,
@@ -1624,6 +1659,19 @@ h4 {
   border-top: 1px solid rgba(255,255,255,0.1);
   color: inherit;
   text-align: left;
+}
+
+.topic-card button {
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr);
+  column-gap: 10px;
+}
+
+.topic-card button .asset-icon {
+  grid-row: span 2;
+  align-self: center;
+  width: 38px;
+  height: 38px;
 }
 
 .topic-card button strong,
@@ -2087,6 +2135,12 @@ h4 {
   padding: clamp(24px, 5vw, 46px);
 }
 
+.article-visual-icon {
+  width: 58px;
+  height: 58px;
+  margin-bottom: 16px;
+}
+
 .article-visual-copy > span {
   color: var(--cyan);
   font-family: var(--ff-ui);
@@ -2135,6 +2189,20 @@ h4 {
   background: rgba(7,8,18,0.72);
   object-fit: cover;
   box-shadow: 0 0 0 8px rgba(7,8,18,0.34), 0 18px 46px rgba(0,0,0,0.42);
+}
+
+.article-visual-divider {
+  position: absolute;
+  left: clamp(18px, 4vw, 46px);
+  right: clamp(18px, 4vw, 46px);
+  bottom: 10px;
+  z-index: 2;
+  width: min(760px, calc(100% - 210px));
+  height: 46px;
+  object-fit: contain;
+  object-position: left center;
+  opacity: 0.72;
+  pointer-events: none;
 }
 
 .reading-mode .os-reader > .os-thumb {
@@ -3161,6 +3229,11 @@ h4 {
     right: 20px;
     bottom: 20px;
     width: 94px;
+  }
+
+  .article-visual-divider {
+    width: calc(100% - 148px);
+    height: 38px;
   }
 
   .home-section-title {

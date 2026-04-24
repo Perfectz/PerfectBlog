@@ -259,8 +259,29 @@ function HomeMasthead() {
         <h1>Stories from the neon edge of practical AI.</h1>
         <p>{SITE.tagline}</p>
       </div>
+      <img className="home-signal-divider" src="assets/generated/divider-sunset-grid.png" alt="" />
     </header>
   );
+}
+
+const UI_ICONS = {
+  all: 'assets/generated/icon-gem.png',
+  videos: 'assets/generated/icon-music-video.png',
+  usecases: 'assets/generated/icon-ai-chip.png',
+  training: 'assets/generated/icon-training.png',
+  consulting: 'assets/generated/icon-consulting.png',
+  charts: 'assets/generated/icon-chart-growth.png',
+  diagrams: 'assets/generated/icon-diagram-flow.png',
+  newsletter: 'assets/generated/icon-newsletter.png',
+  dashboard: 'assets/generated/icon-dashboard.png',
+  prompt: 'assets/generated/icon-prompt.png',
+  archive: 'assets/generated/icon-archive.png'
+};
+
+function AssetIcon({ name, className = '' }) {
+  const src = UI_ICONS[name];
+  if (!src) return null;
+  return <img className={'asset-icon ' + className} src={src} alt="" />;
 }
 
 function TopicNav({ posts, activeCategory, setActiveCategory }) {
@@ -275,6 +296,7 @@ function TopicNav({ posts, activeCategory, setActiveCategory }) {
             style={{ '--topic-color': category.color }}
             onClick={() => setActiveCategory(category.id)}
           >
+            <AssetIcon name={category.id} />
             <span>{category.label}</span>
             <em>{count}</em>
           </button>
@@ -336,6 +358,7 @@ function HomeSidebar({ posts, setActiveCategory, onOpenPost }) {
         <span>Channels</span>
         {CATEGORIES.filter(category => category.id !== 'all').map(category => (
           <button key={category.id} style={{ '--topic-color': category.color }} onClick={() => setActiveCategory(category.id)}>
+            <AssetIcon name={category.id} />
             <strong>{category.label}</strong>
             <small>{category.description}</small>
           </button>
@@ -494,6 +517,7 @@ const ARTICLE_VISUALS = {
   'chart-training-guide': {
     image: 'assets/avatar/chart-tablet.png',
     avatar: 'assets/avatar/avatar-bust.png',
+    icon: 'charts',
     eyebrow: 'Executive chart lab',
     title: 'Prompt-to-boardroom reporting, tuned for fast leadership scans.',
     details: ['Python outputs', 'C-level readout', 'Board deck polish']
@@ -501,6 +525,7 @@ const ARTICLE_VISUALS = {
   'diagram-training-guide': {
     image: 'assets/avatar/command-center.png',
     avatar: 'assets/avatar/avatar-bust.png',
+    icon: 'diagrams',
     eyebrow: 'Architecture desk',
     title: 'System diagrams framed like field notes from the command center.',
     details: ['Mermaid renders', 'Architecture reviews', 'Decision clarity']
@@ -516,6 +541,7 @@ function ArticleVisualPanel({ post }) {
       <img className="article-visual-bg" src={visual.image} alt="" />
       <div className="article-visual-shade" />
       <div className="article-visual-copy">
+        <AssetIcon name={visual.icon} className="article-visual-icon" />
         <span>{visual.eyebrow}</span>
         <h2>{visual.title}</h2>
         <div>
@@ -523,6 +549,7 @@ function ArticleVisualPanel({ post }) {
         </div>
       </div>
       <img className="article-avatar-chip" src={visual.avatar} alt="" />
+      <img className="article-visual-divider" src="assets/generated/divider-cassette.png" alt="" />
     </section>
   );
 }
@@ -554,7 +581,7 @@ function GuideOutline({ post }) {
 
   return (
     <nav className="guide-outline" aria-label="Article guide outline">
-      <span>Guide template</span>
+      <span><AssetIcon name={post.slug === 'chart-training-guide' ? 'charts' : 'diagrams'} />Guide template</span>
       <div>
         {items.map(([label, id]) => (
           <button key={id} onClick={() => jumpTo(id)}>{label}</button>
